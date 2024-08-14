@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* ==============HEADER CSS======================== */
+.header-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+.logo-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.logo{
+  background-color: #FD6F00;
+  display: inline-block;
+  border-radius: 25px;
+  padding: 2px;
+  color: white;
+  font-family: Merriweather Sans;
+  font-size: 24px;
+}
+.head-title{
+  font-family: 
+  Montserrat;
+  font-weight: 470;
+}
+span{
+  font-weight: bold;
+}
+
+.nav-link nav{
+  list-style-type: none;
+  font-family: poppins;
+  font-weight: 350;
+}
+nav{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 0 10px 0 10px;
+}
+
+.download-btn{
+  background-color: #FD6F00;
+  color: white;
+  border: none;
+  padding: 5px;
+  width: 188px;
+  height: 42px;
+  top: 7px;
+  left: 1232px;
+  gap: 0px;
+  border-radius: 5px 0px 0px 0px;
+  opacity: 0px;
+  font-weight: 600;
+  font-size: 16px;
+
+}
+
+/* ===============Mobile MEDIA Query=====================*/
+
+@media (max-width: 600px) {
+  /* Styles for mobile devices */
+  .header-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+
+/* ===============Tablet Media Query=====================*/
+
+@media (min-width: 901px) and (max-width: 1200px) {
+  /* Styles for tablets in landscape orientation */
+  .header-container{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+

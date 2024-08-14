@@ -1,0 +1,51 @@
+.service-container{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.service-provided{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+.service-intro{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.service-intro h1{
+  font-family: poppins;
+}
+.service-title{
+  padding: 10px;
+}
+
+/*=================Media Queries==========*/
+.service-intro h1{
+  font-size: 25px;
+}
+.service-para{
+  width: 300px;
+  text-align: center;
+  margin-top: 11px;
+}
+.service-provided{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+.prov{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.prov-para{
+  text-align: center;
+}

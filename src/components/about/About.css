@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*===================INTRO CSS =======================*/
+.intro-container{
+  display: flex;
+  justify-content: space-around;
+  justify-content: center;
+  margin-top: 75px;
+}
+.about-text{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.name-prof h1{
+  font-size: 40px;
+  padding-bottom: 10px;
+  font-family: poppins;
+  font-weight: bolder;
+}
+
+.para-2{
+  height: 80px;
+  width: 400px;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.img-container{
+  display: flex;
+  justify-content: center;
+}
+.rect-img{
+  position: absolute;
+  display: inline-block;
+  height: 50px;
+  width: 220px;
+  background-color: #FD6F00;
+  margin-top: 100px;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+.skill {
+  margin: 10px 0;
+  margin-left: 25px;
+}
+
+.skill-name {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.progress-bar {
+  position: relative;
+  background-color: #e0e0e0; 
+  height: 8px;
+  border-radius: 4px;
+  overflow: hidden;
+  width: 370px; 
+}
+
+.progress {
+  background-color: #ff7600; 
+  height: 100%;
+  position: relative;
+}
+
+.marker {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 16px;
+  height: 16px;
+  background-color: white;
+  border: 2px solid #ff7600; 
+  border-radius: 50%;
+}
+
+/*==================Media Querie====================*/
+@media (max-width: 600px) {
+  /* Styles for mobile devices */
+  .intro-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .name-prof h1{
+    display: inline-block;
+    width: 250px;
+    font-size: 5px;
+    font-weight: 500;
+  }
+  .para-2{
+    width: 350px;
+    padding: 0px 15px 0 15px;
+    margin-bottom: 10px;
+  }
+  .progress-bar{
+    width: 260px;
+  }
+
+}

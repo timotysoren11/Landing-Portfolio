@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/*==========================PROJECT CSS=============== */
+
+.project-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+}
+.proj-title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.proj-title h1{
+  padding-bottom: 15px;
+}
+.proj-para{
+  padding-bottom: 25px;
+  font-family: poppins;
+}
+.proj-btns{
+  display: flex;
+  gap: 10px;
+}
+.proj-para{
+  width: 540px;
+  height: 78px;
+  top: 120px;
+  left: 249px;
+  gap: 0px;
+  opacity: 0px;
+
+}
+.all-btn, .ui-btn, .web-design-btn, .App-design-btn, .Graphic-btn{
+  padding: 5px;
+  font-weight: 600;
+  font-size: 16px;
+}
+.all-btn{
+  width: 35px;
+}
+.web-design-btn{
+
+  background-color: #FD6F00;
+  color: white;
+  border: none;
+  padding: 5px;
+  width: 150px;
+  height: 42px;
+  border-radius: 5px 0px 0px 0px;
+  opacity: 0px;
+}
+.proj-image{
+  margin-top: 40px;
+  display: flex;
+  gap: 85px;
+}
+.base-img, .overlay-img{
+  height: 260px;
+}
+.base-img{
+  position: relative;
+  left: 30px;
+  height: 230px;
+}
+
+h4{
+  color: #FD6F00;
+  font-family: poppins;
+}
+h2{
+  font-size: 18px;
+  font-family: poppins;
+}
+
+/*==========Media Query========*/
+@media (max-width: 600px) {
+  /* Styles for mobile devices */
+  .proj-title h1{
+    font-size: 23px;
+    font-weight: bold;
+  }
+  .proj-para{
+    text-align: center;
+    font-size: 15px;
+    width: 360px;
+  }
+  .proj-btns{
+    display: flex;
+    flex-direction: column;
+  }
+  .all-btn{
+    width: 150px;
+    margin-top: 20px;
+  }
+  .proj-image{
+    display: flex;
+    flex-direction: column;
+  }
+}

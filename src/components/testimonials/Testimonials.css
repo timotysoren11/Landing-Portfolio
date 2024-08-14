@@ -1,0 +1,35 @@
+.testimon-container{
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.testimon-title{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.testimon-para{
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 31.5px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  width: 700px;
+}
+
+/*==================Media Query===========*/
+@media (max-width: 600px) {
+  /* Styles for mobile devices */
+  .testimon-title h1{
+    font-size: 25px;
+  }
+  .testimon-para{
+    margin-top: 10px;
+    width: 350px;
+    font-size: 15px;
+  }
+}

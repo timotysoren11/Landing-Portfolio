@@ -1,0 +1,98 @@
+.carousel-container {
+  display: flex;
+  flex-direction: column;
+  width: 700px; 
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-slide{
+  display: flex;
+  flex-direction: column;
+}
+.carousel-content{
+  display: flex;
+}
+
+.carousel-image {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.carousel-text {
+  font-size: 17px;
+  color: #555;
+  margin: 10px 0;
+  font-style: italic;
+  line-height: 22px;
+  padding-left: 10px;
+}
+
+.carousel-ceo{
+  position: relative;
+  left: -180px;
+  top: -20px;
+}
+.carousel-name {
+  font-weight: bold;
+  color: #333;
+  margin-top: -10px;
+}
+
+.carousel-title {
+  color: #888;
+  font-size: 14px;
+}
+
+.carousel-controls {
+  margin-top: 20px;
+}
+
+.carousel-indicators {
+  margin-top: 20px;
+}
+
+.dot {
+  position: relative;
+  top: -25px;
+  height: 8px;
+  width: 35px;
+  margin: 0 5px;
+  border-radius: 4px;
+  background-color: #bbb;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.dot.active {
+  background-color: #ff9800;
+}
+
+/*===================Media Query====================*/
+@media (max-width: 600px) {
+  /* Styles for mobile devices */
+  .carousel-container{
+    display: flex;
+    flex-direction: column;
+    width: 300px; 
+    gap: 35px;
+  }
+  .carousel-content{
+    display: flex;
+    flex-direction: column;
+  }
+  .carousel-ceo{
+    position: relative;
+    left: 2px;
+    top: 20px;
+  }
+
+  
+}
+
