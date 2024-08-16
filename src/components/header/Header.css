@@ -81,15 +81,3 @@ nav{
   }
 }
 
-
-/* ===============Tablet Media Query=====================*/
-
-@media (min-width: 901px) and (max-width: 1200px) {
-  /* Styles for tablets in landscape orientation */
-  .header-container{
-    display: flex;
-    flex-direction: column;
-  }
-}
-
-
