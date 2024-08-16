@@ -26,8 +26,10 @@
 }
 
 /*=================Media Queries==========*/
-.service-intro h1{
-  font-size: 25px;
+@media (max-width: 600px) {
+  .service-intro h1{
+    font-size: 25px;
+  }
 }
 .service-para{
   width: 300px;
