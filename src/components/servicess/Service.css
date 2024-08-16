@@ -30,7 +30,6 @@
   .service-intro h1{
     font-size: 25px;
   }
-}
 .service-para{
   width: 300px;
   text-align: center;
@@ -50,4 +49,5 @@
 }
 .prov-para{
   text-align: center;
+}
 }
